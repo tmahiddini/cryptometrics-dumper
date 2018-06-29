@@ -1,0 +1,17 @@
+{
+  "name": "crypto-metrics",
+  "version": "0.0.1",
+  "description": "  Download datasets with cryptocurrency history in csv or json format, clean    ",
+  "main": "crypto-metrics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahiddini Thibaut",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "jsonexport": "^2.2.0"
+  }
+}
