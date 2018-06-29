@@ -1,5 +1,5 @@
 {
-  "name": "crypto-metrics",
+  "name": "cryptometrics-dumper",
   "version": "0.0.1",
   "description": "  Download datasets with cryptocurrency history in csv or json format, clean    ",
   "main": "crypto-metrics.js",
