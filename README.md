@@ -45,7 +45,7 @@ Download datasets of crypto currency that have the labels ETH until January 1, 2
 ```
 node cryptometrics-dumper.js -l ETH --end 2017/01/01
 ```
-Download datasets of crypto currency that have the labels ETH,</br> since January 1, 2016, until January 1, 2017,</br> export it in JSON format, and save it to the folder "/tmp/Dataset2016" :
+Download datasets of crypto currency that have the labels ETH,</br>since January 1, 2016, until January 1, 2017,</br>and export it in JSON format, and save it to the folder "/tmp/Dataset2016" :
 ```
 node cryptometrics-dumper.js -l ETH --start 2016/01/01 --end 2017/01/01 -o json -F /tmp/Dataset2016
 ```
@@ -54,11 +54,11 @@ Get the top 100 by market capitalisation :
 ```
 node cryptometrics-dumper.js -t 100 -F /tmp/top100
 ```
-Get the top 5 + the labels that have been selected :
+Get the top 5 and the labels that have been selected :
 ```
 node cryptometrics-dumper.js -t 5 -l DASH
 ```
-Get the top 5 + the labels that have been selected in a date range that was selected :
+Get the top 5 and the labels that have been selected in a date range that was selected :
 ```
 node cryptometrics-dumper.js -t 5 -l DASH -s 2016/01/01 -e 2017/01/01 -F /tmp/top5_2017
 ```
