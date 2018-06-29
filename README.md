@@ -63,7 +63,7 @@ Get the top 5 and the labels that have been selected in a date range that was se
 node cryptometrics-dumper.js -t 5 -l DASH -s 2016/01/01 -e 2017/01/01 -F /tmp/top5_2017
 ```
 
-### download history datasets of all crypto currencies :
+### Download history datasets of all crypto currencies :
 ```
 cryptometrics-dumper -a
 ```
