@@ -35,32 +35,32 @@ npm update
 ### Select datasets by crypto currency label :
 Download datasets of crypto currency that have the labels BTC ETH XRP BCH :
 ```
-cryptometrics-dumper -l BTC ETH XRP BCH
+node cryptometrics-dumper.js -l BTC ETH XRP BCH
 ```
 Download datasets of crypto currency that have the labels ETH since January 1, 2016 :
 ```
-cryptometrics-dumper -l ETH --start 2016/01/01
+node cryptometrics-dumper.js -l ETH --start 2016/01/01
 ```
 Download datasets of crypto currency that have the labels ETH until January 1, 2017 :
 ```
-cryptometrics-dumper -l ETH --end 2017/01/01
+node cryptometrics-dumper.js -l ETH --end 2017/01/01
 ```
 Download datasets of crypto currency that have the labels ETH,</br> since January 1, 2016, until January 1, 2017,</br> export it in JSON format, and save it to the folder "/tmp/Dataset2016" :
 ```
-cryptometrics-dumper -l ETH --start 2016/01/01 --end 2017/01/01 -o json -F /tmp/Dataset2016
+node cryptometrics-dumper.js -l ETH --start 2016/01/01 --end 2017/01/01 -o json -F /tmp/Dataset2016
 ```
 ### Select datasets by the top of market capitalization :
 Get the top 100 by market capitalisation :  
 ```
-cryptometrics-dumper -t 100 -F /tmp/top100
+node cryptometrics-dumper.js -t 100 -F /tmp/top100
 ```
 Get the top 5 + the labels that have been selected :
 ```
-cryptometrics-dumper -t 5 -l DASH
+node cryptometrics-dumper.js -t 5 -l DASH
 ```
 Get the top 5 + the labels that have been selected in a date range that was selected :
 ```
-cryptometrics-dumper -t 5 -l DASH -s 2016/01/01 -e 2017/01/01 -F /tmp/top5_2017
+node cryptometrics-dumper.js -t 5 -l DASH -s 2016/01/01 -e 2017/01/01 -F /tmp/top5_2017
 ```
 
 ### Download history for all crypto currency :
