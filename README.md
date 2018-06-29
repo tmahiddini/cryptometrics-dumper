@@ -1,6 +1,6 @@
 # cryptometrics-dumper
   <b>This is an open source CLI program, written in nodejs, for any crypto investor, data scientist, journalist, and student looking for datasets.</b></br>
-  </br>Download datasets with cryptocurrency history in csv or json format, cleaned and updated every day, and calculate the daily change, close off high and volatility to build machine learning models and make financial graphs.</br>
+  </br>Download datasets with cryptocurrency history in csv or json format, cleaned and updated every day, and calculate the daily change, close off high and volatility to build machine learning models and make financial charts.</br>
   Data provided by https://coinmarketcap.com.</br>
   Currency in USD.
 
@@ -32,7 +32,7 @@ npm update
 
 ## Running Example :
 
-### Select datasets by crypto currency label :
+### Select datasets by crypto currency label 
 Download datasets of crypto currency that have the labels BTC ETH XRP BCH :
 ```
 node cryptometrics-dumper.js -l BTC ETH XRP BCH
@@ -49,7 +49,7 @@ Download datasets of crypto currency that have the labels ETH,</br>since January
 ```
 node cryptometrics-dumper.js -l ETH --start 2016/01/01 --end 2017/01/01 -o json -F /tmp/Dataset2016
 ```
-### Select datasets by the top of market capitalization :
+### Select datasets by the top of market capitalization 
 Get the top 100 by market capitalisation :  
 ```
 node cryptometrics-dumper.js -t 100 -F /tmp/top100
@@ -63,7 +63,7 @@ Get the top 5 and the labels that have been selected in a date range that was se
 node cryptometrics-dumper.js -t 5 -l DASH -s 2016/01/01 -e 2017/01/01 -F /tmp/top5_2017
 ```
 
-### Download history datasets of all crypto currencies :
+### Download history datasets of all crypto currencies 
 ```
 cryptometrics-dumper -a
 ```
