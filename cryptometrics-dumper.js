@@ -20,7 +20,7 @@ const optionDefinitions = [
 const sections = [
   {
     header: 'cryptometrics-dumper',
-    content: 'Download datasets with cryptocurrency history in csv or json format, clean and updated every day, and calculate the daily change, close off high and volatility to build machine learning models and make financial graphs.\nData provided by https://coinmarketcap.com.\n Currency in USD.'
+    content: 'Download datasets with cryptocurrency history in csv or json format, clean and updated every day, and calculate the daily change, close off high and volatility to build machine learning models and make financial charts.\nData provided by https://coinmarketcap.com.\n Currency in USD.\nAuthor : Mahiddini Thibaut'
   },
   {
     header: 'Example :',
